@@ -240,7 +240,7 @@ describe('truethy values', function () {
   });
 });
 
-// Boolean(x) will return:
+// ToBoolean(x) will return:
 //  typeof(x) == Completion Record => (x.type !== normal) ? x : Boolean(x.value)
 //  x = undefined        => false
 //  x = null             => false
@@ -249,6 +249,6 @@ describe('truethy values', function () {
 //  typeof(x) == String  => !(x.length === 0)
 //  typeof(x) == Symbol  => true
 //  typeof(x) == Object  => true
-// All according to http://www.ecma-international.org/ecma-262/6.0/#table-10 
+// All according to http://www.ecma-international.org/ecma-262/6.0/#sec-toboolean
 // plus in case of the completion record http://www.ecma-international.org/ecma-262/6.0/#sec-completion-record-specification-type
 // plus in case of the Symbol type http://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-language-types-symbol-type
