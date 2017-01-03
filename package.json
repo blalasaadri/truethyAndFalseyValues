@@ -1,0 +1,17 @@
+{
+  "name": "truethyAndFalsyValues",
+  "version": "1.0.0",
+  "description": "A set of tests about truethy an falsy values in JavaScript",
+  "main": "index.js",
+  "repository": "https://github.com/blalasaadri/truethyAndFalseyValues.git",
+  "author": "Alasdair Collinson <blalasaadri@googlemail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "es-to-primitive": "^1.1.1",
+    "mocha": "^3.2.0"
+  }
+}
