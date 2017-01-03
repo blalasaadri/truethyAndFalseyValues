@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/blalasaadri/truethyAndFalseyValues.svg?branch=master)](https://travis-ci.org/blalasaadri/truethyAndFalseyValues)
+
 Truethy and falsey values in JavaScript
 ===
 This is a very simple collection of tests, exploring truethy an falsy values in JavaScript. I'm using Mocha and Chai for the tests.
