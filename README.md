@@ -23,3 +23,5 @@ Sources
 ===
 - [All falsey values in JavaScript (StackOverflow)](http://stackoverflow.com/questions/19839952/all-falsey-values-in-javascript)
 - [ECMAScript® 2015 Language Specification (6th Edition)](http://www.ecma-international.org/ecma-262/6.0/)
+- [es-to-primitive](https://github.com/ljharb/es-to-primitive)
+- [Speaking JavaScript, Chapter 8, Algorithm: ToPrimitive()—Converting a Value to a Primitive](http://speakingjs.com/es5/ch08.html#toprimitive)
