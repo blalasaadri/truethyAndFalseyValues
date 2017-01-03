@@ -1,6 +1,5 @@
 language: node_js
 node_js:
-  - "6"
-  - "7.3.0"
-  - "node""
-cache: yarn
+- "6"
+- "7.3.0"
+- "node"
